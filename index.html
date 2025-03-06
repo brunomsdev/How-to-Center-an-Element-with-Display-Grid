@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to center an element using display:grid</title>
+</head>
+<body>
+  <div class="grid-center">
+    <p id="text-1">/* To center an element using display: grid is necessary to add it to the parent div. The display element works using it to the parent container to align the element child. Place-item: center is used with the display:grid to center the element */</p>
+    <div class="circle"></div>
+    <p id="text-2">/* An interesting behavier of display: grid and place-items: center is that if there is another element (such as this paragraph), it won't be able to center the intended specific element. So, display: grid is just an opcion if there is just one element. However, it is possible to use position: absolute in the extra elements to make them stopping interfering in the behavior of the intended element one wants to center */</p>
+  </div>
+</body>
+</html>
