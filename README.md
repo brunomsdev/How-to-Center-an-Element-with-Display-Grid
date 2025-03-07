@@ -1,4 +1,4 @@
-# How to center an element with display: grid
+# How to center an element with "display: grid"
 
 The "display: grid" property simplifies how to center an element. However, it is necessary to understand that the property "display: grid" needs to be applied to the parent container in order to center an element inside of it. Here’s a step-by-step guide:
 
